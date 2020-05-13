@@ -21,9 +21,9 @@
 
         turnAround() {   
             if (this.direction === true) { 
-                return this.direction = false
+                this.direction = false
             } else { 
-                return this.direction = true
+                this.direction = true
             }
             // this.direction = true ? false : true;
         },
